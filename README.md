@@ -30,8 +30,9 @@ For News(News on Upcoming Events) use:
     </div>
 </div>
 ```
+
 For Get Involved use:
-`
+```
 <div class="col m4">
 	<div class="logo-container">
   		{{ field_get_involved_logo }}
@@ -42,10 +43,10 @@ For Get Involved use:
 	</div>
 	<a href="{{ field_get_involved_url }}" class="button border-less btn-wide">{{ field_get_involved_button_lable }}</a>
 </div>
-`
+```
 
 For Our Mission use:
-`
+```
 <div class="col m4">
 	<div class="mission-box background-white">
 		<div class="floating-icon">
@@ -55,10 +56,10 @@ For Our Mission use:
 		<p>{{ body }}</p>
 	</div>
 </div>
-`
+```
 
 For Our Members use:
-`
+```
 <div class="col width20">
     <div class="logo-container">
 		<a href="{{ field_our_members_url }}">
@@ -66,10 +67,10 @@ For Our Members use:
 		</a>
     </div>
 </div>
-`
+```
 
 For Blog use:
-`
+```
 <div class="col m3">
 	<div class="blog-content">
 		<h4 class="blog-heading">{{title}}</h4>
@@ -77,16 +78,16 @@ For Blog use:
 		<p class="blog-date text-color-gray">{{ created }}</p>
 	</div>
  </div>
-`
+```
 In the above example you can alter the Date output to the style you like. I used `j F Y`
 
 
 For Social Link use:
-`
+```
 <div class="col m1">
 	<a href="{{field_social_site_url }}">{{ field_social_website_icon  }}</a>
 </div>
-`
+```
 
 
 # Note
