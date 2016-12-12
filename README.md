@@ -19,8 +19,8 @@ To recreate these blocks you must create `Content types` then assign them to cus
 You have to Override the output of the fields. Read below to find override twig code.(You can replace the twig variables to the variables you have assigned for the respective fields)
 
 For News(News on Upcoming Events) use:
-
-`<div class="row">
+```
+<div class="row">
     <div class="col m10">
         <h2 class="heading"><span class="text-color-cyan">Next Event:</span> {{ field_news_date }} </h2>
         <p class="description">{{ field_news_address }}</p>
@@ -28,8 +28,8 @@ For News(News on Upcoming Events) use:
     <div class="col m2">
         {{ view_node }}
     </div>
-</div>`
-
+</div>
+```
 For Get Involved use:
 `
 <div class="col m4">
