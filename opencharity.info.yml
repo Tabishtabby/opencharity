@@ -1,0 +1,31 @@
+name: 'Open Charity'
+description: 'A theme created for OpenCharity'
+type: theme
+package: Custom
+
+
+libraries:
+  - opencharity/global-css
+
+regions:
+  left_sidebar: 'Left sidebar'
+  right_sidebar: 'Right sidebar'
+  content: Content
+  header: Header
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  footer: Footer
+  footer_social: 'Footer Social'
+  highlighted: Highlighted
+  help: Help
+  breadcrumb: Breadcrumb
+  events: Events
+  get_involved: 'Get involved'
+  our_mission: 'Our mission'
+  our_members: 'Our members'
+  blog: Blog
+  news: News
+
+version: '1.0'
+core: '8.x'
+project: 'opencharity'
