@@ -31,7 +31,7 @@ For News(News on Upcoming Events) use:
 </div>`
 
 For Get Involved use:
-~
+`
 <div class="col m4">
 	<div class="logo-container">
   		{{ field_get_involved_logo }}
@@ -42,7 +42,7 @@ For Get Involved use:
 	</div>
 	<a href="{{ field_get_involved_url }}" class="button border-less btn-wide">{{ field_get_involved_button_lable }}</a>
 </div>
-~
+`
 
 For Our Mission use:
 `
