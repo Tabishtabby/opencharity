@@ -6,15 +6,27 @@ The solution is responsive & crossbrowser compatible. The theme will work on IE 
 
 The theme uses blocks and views to create the Landing Page this makes them editable.
 
+```
+Regions
+ - News (Event News)
+ - Blog
+ - Social Links
+ - Our Mission
+ - Our Mebers
+ ` Get Involved
+```
+The above regions are the Added regions specially for the template layout. There are other regions as well like `header, footer, content..etc`
+
+
 # Demo
 [Click here to view demo](http://dev.adhpl.co)
 
 
 # Implementation Of Blocks
 
-The theme is divided into a few blocks like News, Blog, Social Links, Our Mission, Our Members and Get Involved.
+The theme is divided into a few `Regions` like News, Blog, Social Links, Our Mission, Our Members and Get Involved.
 
-To recreate these blocks you must create `Content types` then assign them to custom `View/Blocks` and add them to their respective `block layout`
+To recreate these blocks you must create `Content types` then assign them to custom `View/Blocks` and add them to their respective `Regions`
 
 You have to Override the output of the fields. Read below to find override twig code.(You can replace the twig variables to the variables you have assigned for the respective fields)
 
