@@ -1,6 +1,4 @@
-# Open Charity
-
-This is a theme created for CompuCorp as a Task
+# Dynamic Drupal 8 theme example
 
 The solution is responsive & crossbrowser compatible. The theme will work on IE 11 and above and also latest Chrome, Firefox and Safari Browsers for Drupal v8.0.
 
@@ -100,7 +98,3 @@ For Social Link use:
 	<a href="{{field_social_site_url }}">{{ field_social_website_icon  }}</a>
 </div>
 ```
-
-
-# Note
-As the condition in the task was not to use any framework and also doesn't involve Javascript. The navbar in mobile view is a simple div which doesn't involve any dropdown or off canvas menu. The same goes for other JS elements which could have been placed but are out of scope.
